@@ -10,7 +10,7 @@ const UsersList = () => {
 
   return (
     <div className={styles.userList}>
-      <h1></h1><br></br>
+      <p></p><br></br>
       <div className={styles.tableFlow}>
         <form>
           <table>
@@ -18,10 +18,10 @@ const UsersList = () => {
               <tr>
                 <th>Titre</th>
                 <th>Description</th>
-                <th>Date de début</th>
-                <th>Date de fin</th>
+                <th> Début</th>
+                <th>Fin</th>
                 <th>Statut</th>
-                <th></th>
+                <th>Actions</th>
               </tr>
             </thead>
             <tbody>

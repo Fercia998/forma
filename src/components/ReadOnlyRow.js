@@ -25,10 +25,10 @@ const ReadOnlyRow = (props) => {
       
       <td>
         <Button onClick={(event) => usersCtx.onEdit(event, props.user)}>
-          Modifier
+          Supprimer
         </Button>
         <Button onClick={(event) => usersCtx.onDelete(event, props.user.id)}>
-          Supprimer
+          Modifier
         </Button>
       </td>
     </tr>

@@ -51,7 +51,7 @@ const EditableRow = () => {
         <label>
         <select
           type="text"
-          placeholder="Selectionner votre statuts"
+          placeholder="Selectionner votre statut"
           name="statut"
           value={usersCtx.editUserData.statut}
           onChange={usersCtx.onEditInputChange}
@@ -67,7 +67,7 @@ const EditableRow = () => {
       <td></td>
       <td>
         <Button type="submit" onClick={usersCtx.onEditSave}>
-          Save
+          Enregistrer
         </Button>
       </td>
     </tr>

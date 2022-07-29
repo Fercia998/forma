@@ -46,8 +46,9 @@ const RegistrationForm = () => {
 
   return (
     <div className={styles.justifyContentAround}>
-      <h1></h1>
+    
       <form className={styles.formStyle} onSubmit={submitHandler}>
+       <h1> Remplissez le formulaire</h1>
         <div className={styles.formGroup}>
           <label className={styles.formLabel} htmlFor="titre">
           Titre
@@ -74,7 +75,7 @@ const RegistrationForm = () => {
           />
         </div>
         <div className={styles.formGroup}>
-          <label htmlFor="date">Date de début</label>
+          <label htmlFor="date">Début</label>
           <input
             type="date"
             placeholder=""
@@ -85,7 +86,7 @@ const RegistrationForm = () => {
           />
         </div>
         <div className={styles.formGroup}>
-          <label htmlFor="date1">Date de fin</label>
+          <label htmlFor="date1">Fin</label>
           <input
             type="date"
             placeholder=""
